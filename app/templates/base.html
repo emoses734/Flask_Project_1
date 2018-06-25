@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- If statements within indices -->
+    {% if title %}
+    <title>{{ title }} - Sample Project</title>
+    {% else %}
+    <title>Sample - Homepage</title>
+    {% endif %}
+  </head>
+
+  <body>
+  {% block content %}
+  {% endblock %}
+  </body>
+</html>
